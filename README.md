@@ -32,6 +32,6 @@ Note that our code also prints the ground-truth target value.
 experiment - 2022 setting1MCMC.R/experiment - 2022 setting2MCMC.R/experiment - 2022 setting3MCMC.R <br />
 to obtain data that are similar to the ones in <br />
 CF1-100mean-MCMC1.csv/CF2-100mean-MCMC1.csv/CF3-100mean-MCMC1.csv  <br />
-3. To run different algorithms (including our proposal DRSK) on the data, run <br />
+3. To implement different algorithms (including our proposal DRSK) on the data, run <br />
 drsk_computer.py <br />
 
