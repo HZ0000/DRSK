@@ -11,7 +11,6 @@ import cvxpy as cp
 import math
 import scipy.stats as st
 import scipy
-
 from numpy import genfromtxt
 datatr = genfromtxt('CF3-100mean-MCMC1.csv', delimiter=',') #
 datatr = datatr[1:,1:]
@@ -58,7 +57,7 @@ for h111 in [1]:
         q1 = np.zeros([m2,n1])
         q2 = np.zeros([m2,1],dtype=int)
         for i in range(n3):
-          p2[i,0] = int(i) #the index used to identify the label for p1
+            p2[i,0] = int(i) #the index used to identify the label for p1
         for i in range(m2):
             q1[i] = p1[i+m]   #x_j
             q2[i] = p2[i+m]  #y_j
@@ -247,5 +246,5 @@ for h111 in [1]:
         sum26=sum26+(f50()-mea)**2
         sum27=sum27+(f70()-mea)**2
         sum28=sum28+(f60()-mea)**2
-        #checkvar[i1]=s2_IS
-    print([sum22/n2,sum26/n2,sum24/n2,sum27/n2,sum25/n2])
+
+    print([sum22/n2,sum26/n2,sum24/n2,sum27/n2,sum25/n2]) #You may print results from more algorithms
