@@ -22,4 +22,5 @@ If you find this repository or the ideas presented in our paper useful, please c
 
 # Implementation
 
-To implement the , run  <br />
+For the experiments on the Computer Communication Network:
+To obtain the ground-truth data (without MCMC), run experiment - 2022 setting1truth/experiment - 2022 setting2truth/experiment - 2022 setting3truth, and obtain data that are similar to CF1-truth.csv/CF2-truth.csv/CF3-truth.csv  <br />
