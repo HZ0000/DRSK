@@ -22,7 +22,7 @@ If you find this repository or the ideas presented in our paper useful, please c
 
 # Implementation
 
-For running the experiments on the example of "Computer Communication Network" Computer Communication Network: <br />
+For running experiments on the example of "Computer Communication Network": <br />
 1. To obtain the data from the exact posterior distribution (without MCMC), run <br />
 experiment - 2022 setting1truth.R/experiment - 2022 setting2truth.R/experiment - 2022 setting3truth.R <br />
 to obtain data that are similar to the ones in <br />
